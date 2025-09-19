@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F49295A6-81D6-4D3B-BCEB-F5C03A38F8DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Islamic_Project</RootNamespace>
+    <AssemblyName>Islamic Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarAfterSalat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarAfterSalat.Designer.cs">
+      <DependentUpon>AthkarAfterSalat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarEvening.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarEvening.Designer.cs">
+      <DependentUpon>AthkarEvening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarMorning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarMorning.Designer.cs">
+      <DependentUpon>AthkarMorning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarQuraan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarQuraan.Designer.cs">
+      <DependentUpon>AthkarQuraan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarSalat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarSalat.Designer.cs">
+      <DependentUpon>AthkarSalat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarSleep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarSleep.Designer.cs">
+      <DependentUpon>AthkarSleep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarTravelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarTravelling.Designer.cs">
+      <DependentUpon>AthkarTravelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarWakingupcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Athkar\AthkarWakingupcs.Designer.cs">
+      <DependentUpon>AthkarWakingupcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Control\MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\UserControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\UserControl3.Designer.cs">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\UserControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\UserControl4.Designer.cs">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarAfterSalat.resx">
+      <DependentUpon>AthkarAfterSalat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarEvening.resx">
+      <DependentUpon>AthkarEvening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarMorning.resx">
+      <DependentUpon>AthkarMorning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarQuraan.resx">
+      <DependentUpon>AthkarQuraan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarSalat.resx">
+      <DependentUpon>AthkarSalat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarSleep.resx">
+      <DependentUpon>AthkarSleep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarTravelling.resx">
+      <DependentUpon>AthkarTravelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Athkar\AthkarWakingupcs.resx">
+      <DependentUpon>AthkarWakingupcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User Control\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\UserControl3.resx">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\UserControl4.resx">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mosque online service-rafiki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Islamic new year-cuate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daytime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunset %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mosque online service-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,29 @@
+C:\Users\user\Desktop\Islamic Project\Islamic Project\bin\Debug\Islamic Project.exe.config
+C:\Users\user\Desktop\Islamic Project\Islamic Project\bin\Debug\Islamic Project.exe
+C:\Users\user\Desktop\Islamic Project\Islamic Project\bin\Debug\Islamic Project.pdb
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic Project.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Properties.Resources.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic Project.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic Project.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic Project.exe
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic Project.pdb
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic Project.exe.config
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.MainScreen.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.User_Control.UserControl1.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.User_Control.MainPage.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.User_Control.UserControl2.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarSleep.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarWakingupcs.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarSalat.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarAfterSalat.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarEvening.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarMorning.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarTravelling.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.Forms_Athkar.AthkarQuraan.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.User_Control.UserControl3.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic_Project.User_Control.UserControl4.resources
+C:\Users\user\Desktop\Islamic Project\Islamic Project\bin\Debug\Interop.WMPLib.dll
+C:\Users\user\Desktop\Islamic Project\Islamic Project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Interop.WMPLib.dll
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Desktop\Islamic Project\Islamic Project\obj\Debug\Islamic Project.csproj.ResolveComReference.cache
